@@ -94,7 +94,7 @@ with open(file_path, 'r') as file:
     lines = file.readlines()
 
 
-net = nx.DiGraph()
+# net = nx.DiGraph()
 
 for line in lines:
     row = [int(value) for value in line.strip().split()]
